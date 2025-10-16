@@ -32,3 +32,11 @@ openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrut
 # 5 Verify the Result
 ls
 cat Q1.recovered
+#  Summary
+- Listed and read files in Linux using basic commands  
+- Decoded a Caesar cipher using `tr`  
+- Decrypted an AES-256-CBC encrypted file using OpenSSL  
+- Successfully recovered the hidden message  
+
+ **Created by:** Gasim Moh  
+**Project Type:** Cybersecurity Lab Practice
